@@ -1,0 +1,72 @@
+#def grams_to_ounces(grams):
+#    return grams * 28.3495231
+#grams = float(input("gramm: "))
+#print("Ounc:", grams_to_ounces(grams))
+
+#def fahrenheit_to_celsius(f):
+#    return (f - 32) * 5 / 
+#f = float(input(" Fahrenheit: "))
+#print("C:", fahrenheit_to_celsius(f))
+
+#def solve(heads, legs):
+#    for chickens in range(heads + 1):
+#        rabbits = heads - chickens
+#        if chickens * 2 + rabbits * 4 == legs:
+#            return chickens, rabbits
+#    return "No answer"
+#h = int(input("Heads: "))
+#l = int(input("legs: "))
+#print(solve(h, l))
+
+#def is_prime(n):
+#    if n < 2:
+#        return False
+#    for i in range(2, int(n ** 0.5) + 1):
+#        if n % i == 0:
+#            return False
+#    return True
+#nums = list(map(int, input("Числа через пробел: ").split()))
+#print("Простые:", [n for n in nums if is_prime(n)])
+
+#from itertools import permutations
+#s = input("Строка: ")
+#print(["".join(p) for p in permutations(s)])
+
+#s = input("Предложение: ")
+#print(" ".join(s.split()[::-1]))
+
+#def has_33(nums):
+#    for i in range(len(nums) - 1):
+#        if nums[i] == 3 and nums[i + 1] == 3:
+#            return True
+#    return False
+#print(has_33([1, 3, 3])) 
+#print(has_33([1, 3, 1, 3]))  
+#print(has_33([3, 1, 3]))  
+
+#def spy_game(nums):
+#    code = [0, 0, 7]
+#    for num in nums:
+#        if num == code[0]:
+#            code.pop(0)
+#        if not code:
+#            return True
+#    return False
+#print(spy_game([1, 2, 4, 0, 0, 7, 5]))  
+#print(spy_game([1, 0, 2, 4, 0, 5, 7]))  
+#print(spy_game([1, 7, 2, 0, 4, 5, 0])) 
+
+#import math
+#def sphere_volume(radius):
+#    return (4 / 3) * math.pi * (radius ** 3)
+#r = float(input("Введите радиус: "))
+#print("Объем сферы:", sphere_volume(r))
+
+#def unique_list(lst):
+#    result = []
+#    for num in lst:
+#        if num not in result:
+#            result.append(num)
+#    return result
+#print(unique_list([1, 2, 3, 3, 2, 1, 4, 5])) 
+
