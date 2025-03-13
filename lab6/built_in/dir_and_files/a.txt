@@ -1,0 +1,4 @@
+Hello world!
+I am beginner programmer.
+I am coding on Python now.
+I also can code on C++.
