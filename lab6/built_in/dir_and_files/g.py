@@ -1,0 +1,7 @@
+path = input("Input path from text file: ")
+file1 = open(f"{path}", "r")
+copy = file1.read()
+file2 = open("text.txt", "w")
+file2.write(copy)
+file1.close()
+file2.close()
