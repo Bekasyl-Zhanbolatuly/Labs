@@ -2,12 +2,11 @@ import pygame
 import datetime
 
 pygame.init()
-
 WIDTH, HEIGHT = 400, 400
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Mickey Mouse Clock")
 
-clock_face = pygame.image.load("mickeyclock.jpeg") 
+clock_face = pygame.image.load("C:\\Users\\ADMIN\\Git labs\\Labs\\lab7\\mickeyclock.jpeg") 
 clock_face = pygame.transform.scale(clock_face, (WIDTH, HEIGHT))
 
 minute_hand = pygame.Surface((10, 100), pygame.SRCALPHA)
