@@ -20,8 +20,8 @@ while running:
     screen.blit(clock_face, (0, 0))
 
     now = datetime.datetime.now()
-    minutes_angle = -(now.minute * 6)
-    seconds_angle = -(now.second * 6)
+    minutes_angle = -(now.minute * 12)
+    seconds_angle = -(now.second * 12)
 
     rotated_minute = pygame.transform.rotate(minute_hand, minutes_angle)
     rotated_second = pygame.transform.rotate(second_hand, seconds_angle)

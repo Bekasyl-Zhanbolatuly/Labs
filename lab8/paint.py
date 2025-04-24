@@ -22,7 +22,7 @@ def draw_palette():
     screen.blit(pygame.font.SysFont(None, 20).render("Eraser", True, BLACK), (210, 15))
 
 running = True
-screen.fill(WHITE)
+screen.fill(BLACK)
 
 while running:
     for event in pygame.event.get():
